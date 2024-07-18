@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		85DD21262C492C4B00ED2A70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD21252C492C4B00ED2A70 /* AppDelegate.swift */; };
 		85DD21282C492C4B00ED2A70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD21272C492C4B00ED2A70 /* SceneDelegate.swift */; };
-		85DD212A2C492C4B00ED2A70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD21292C492C4B00ED2A70 /* ViewController.swift */; };
-		85DD212D2C492C4B00ED2A70 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 85DD212C2C492C4B00ED2A70 /* Base */; };
+		85DD212A2C492C4B00ED2A70 /* CellsCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD21292C492C4B00ED2A70 /* CellsCreationViewController.swift */; };
 		85DD212F2C492C5500ED2A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DD212E2C492C5500ED2A70 /* Assets.xcassets */; };
 		85DD21322C492C5500ED2A70 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 85DD21312C492C5500ED2A70 /* Base */; };
+		85DD213A2C49319200ED2A70 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD21392C49319200ED2A70 /* Colors.swift */; };
+		85DD213C2C49383300ED2A70 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD213B2C49383300ED2A70 /* Strings.swift */; };
+		85DD213E2C49494800ED2A70 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD213D2C49494800ED2A70 /* Cell.swift */; };
+		85DD21422C494B4E00ED2A70 /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD21412C494B4E00ED2A70 /* CellType.swift */; };
+		85DD21442C49539000ED2A70 /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD21432C49539000ED2A70 /* CellModel.swift */; };
+		85DD21482C497CEA00ED2A70 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD21472C497CEA00ED2A70 /* DataSource.swift */; };
+		85DD214A2C497DF000ED2A70 /* CellsCreationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD21492C497DF000ED2A70 /* CellsCreationPresenter.swift */; };
+		85DD214C2C497EE900ED2A70 /* CellsCreationViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD214B2C497EE900ED2A70 /* CellsCreationViewInput.swift */; };
+		85DD214E2C497EFA00ED2A70 /* CellsCreationViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD214D2C497EFA00ED2A70 /* CellsCreationViewOutput.swift */; };
+		85DD21592C49ACFF00ED2A70 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD21582C49ACFF00ED2A70 /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		85DD21222C492C4B00ED2A70 /* CellularFilling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellularFilling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DD21252C492C4B00ED2A70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85DD21272C492C4B00ED2A70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85DD21292C492C4B00ED2A70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		85DD212C2C492C4B00ED2A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85DD21292C492C4B00ED2A70 /* CellsCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellsCreationViewController.swift; sourceTree = "<group>"; };
 		85DD212E2C492C5500ED2A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85DD21312C492C5500ED2A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85DD21332C492C5500ED2A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DD21392C49319200ED2A70 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		85DD213B2C49383300ED2A70 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		85DD213D2C49494800ED2A70 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		85DD21412C494B4E00ED2A70 /* CellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellType.swift; sourceTree = "<group>"; };
+		85DD21432C49539000ED2A70 /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+		85DD21472C497CEA00ED2A70 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		85DD21492C497DF000ED2A70 /* CellsCreationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellsCreationPresenter.swift; sourceTree = "<group>"; };
+		85DD214B2C497EE900ED2A70 /* CellsCreationViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellsCreationViewInput.swift; sourceTree = "<group>"; };
+		85DD214D2C497EFA00ED2A70 /* CellsCreationViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellsCreationViewOutput.swift; sourceTree = "<group>"; };
+		85DD21582C49ACFF00ED2A70 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,96 @@
 		85DD21242C492C4B00ED2A70 /* CellularFilling */ = {
 			isa = PBXGroup;
 			children = (
-				85DD21252C492C4B00ED2A70 /* AppDelegate.swift */,
-				85DD21272C492C4B00ED2A70 /* SceneDelegate.swift */,
-				85DD21292C492C4B00ED2A70 /* ViewController.swift */,
-				85DD212B2C492C4B00ED2A70 /* Main.storyboard */,
-				85DD212E2C492C5500ED2A70 /* Assets.xcassets */,
-				85DD21302C492C5500ED2A70 /* LaunchScreen.storyboard */,
 				85DD21332C492C5500ED2A70 /* Info.plist */,
+				85DD21512C49A44800ED2A70 /* Resourses */,
+				85DD21502C49A43D00ED2A70 /* App */,
+				85DD214F2C49A43200ED2A70 /* Presentation */,
 			);
 			path = CellularFilling;
+			sourceTree = "<group>";
+		};
+		85DD214F2C49A43200ED2A70 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				85DD21572C49A54900ED2A70 /* DataSource */,
+				85DD21552C49A49E00ED2A70 /* Models */,
+				85DD21542C49A49600ED2A70 /* Cells */,
+				85DD21532C49A48B00ED2A70 /* Presenter */,
+				85DD21522C49A48400ED2A70 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		85DD21502C49A43D00ED2A70 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				85DD21272C492C4B00ED2A70 /* SceneDelegate.swift */,
+				85DD21252C492C4B00ED2A70 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		85DD21512C49A44800ED2A70 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				85DD21392C49319200ED2A70 /* Colors.swift */,
+				85DD21562C49A4AE00ED2A70 /* Enums */,
+				85DD21302C492C5500ED2A70 /* LaunchScreen.storyboard */,
+				85DD212E2C492C5500ED2A70 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		85DD21522C49A48400ED2A70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85DD214B2C497EE900ED2A70 /* CellsCreationViewInput.swift */,
+				85DD21292C492C4B00ED2A70 /* CellsCreationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85DD21532C49A48B00ED2A70 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				85DD21492C497DF000ED2A70 /* CellsCreationPresenter.swift */,
+				85DD214D2C497EFA00ED2A70 /* CellsCreationViewOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		85DD21542C49A49600ED2A70 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				85DD213D2C49494800ED2A70 /* Cell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		85DD21552C49A49E00ED2A70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85DD21432C49539000ED2A70 /* CellModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85DD21562C49A4AE00ED2A70 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				85DD21412C494B4E00ED2A70 /* CellType.swift */,
+				85DD213B2C49383300ED2A70 /* Strings.swift */,
+				85DD21582C49ACFF00ED2A70 /* Images.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		85DD21572C49A54900ED2A70 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				85DD21472C497CEA00ED2A70 /* DataSource.swift */,
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +226,6 @@
 			files = (
 				85DD212F2C492C5500ED2A70 /* Assets.xcassets in Resources */,
 				85DD21322C492C5500ED2A70 /* Base in Resources */,
-				85DD212D2C492C4B00ED2A70 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +236,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85DD212A2C492C4B00ED2A70 /* ViewController.swift in Sources */,
+				85DD212A2C492C4B00ED2A70 /* CellsCreationViewController.swift in Sources */,
+				85DD213A2C49319200ED2A70 /* Colors.swift in Sources */,
+				85DD213C2C49383300ED2A70 /* Strings.swift in Sources */,
+				85DD21482C497CEA00ED2A70 /* DataSource.swift in Sources */,
+				85DD21592C49ACFF00ED2A70 /* Images.swift in Sources */,
+				85DD214E2C497EFA00ED2A70 /* CellsCreationViewOutput.swift in Sources */,
+				85DD21442C49539000ED2A70 /* CellModel.swift in Sources */,
 				85DD21262C492C4B00ED2A70 /* AppDelegate.swift in Sources */,
+				85DD214C2C497EE900ED2A70 /* CellsCreationViewInput.swift in Sources */,
+				85DD21422C494B4E00ED2A70 /* CellType.swift in Sources */,
 				85DD21282C492C4B00ED2A70 /* SceneDelegate.swift in Sources */,
+				85DD213E2C49494800ED2A70 /* Cell.swift in Sources */,
+				85DD214A2C497DF000ED2A70 /* CellsCreationPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		85DD212B2C492C4B00ED2A70 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85DD212C2C492C4B00ED2A70 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		85DD21302C492C5500ED2A70 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,9 +396,9 @@
 				INFOPLIST_FILE = CellularFilling/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +406,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.handService.CellularFilling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,9 +425,9 @@
 				INFOPLIST_FILE = CellularFilling/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +435,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.handService.CellularFilling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
